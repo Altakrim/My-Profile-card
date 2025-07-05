@@ -1,0 +1,45 @@
+body{
+    background-color : #b40d82;
+    color : #f4f4f4;
+    font-family: sans-serif;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: whtie;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width :300px;
+}
+.card img {
+    width :100px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    transform: transform 0.6s;
+}
+.card h2 {
+    margin :5%;
+    font-size: 22px;
+    color : lightblue;
+}
+.card h4 {
+    margin: 3%;
+    color :aqua;
+    font-size: 18px;
+}
+.card p {
+    color :rgb(11, 11, 12);
+    margin-bottom: 20px;
+}
+.follow-me a { 
+    margin :0 10px;
+    color : #0077cc;
+
+}
+.card img:hover {
+    transform: scale(1.2);
+}
