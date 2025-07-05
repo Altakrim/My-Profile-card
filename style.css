@@ -1,5 +1,5 @@
 body{
-    background-color : #b40d82;
+    background-color : #ffffff;
     color : #f4f4f4;
     font-family: sans-serif;
     display : flex;
@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 .card {
-    background-color: whtie;
+    background-color: rgb(136, 132, 132);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -21,7 +21,7 @@ body{
     margin-bottom: 15px;
     transform: transform 0.6s;
 }
-.card h2 {
+.card h2:hover {
     margin :5%;
     font-size: 22px;
     color : lightblue;
